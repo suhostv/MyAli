@@ -1,0 +1,41 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+div.main {
+    background-color: gray;
+    min-height: 720px;
+    width: 1000px;
+    height: auto;
+}
+
+nav {    
+    height: 40px;
+    background-color: black;
+    position: relative;
+}
+nav button{
+    height: inherit;
+    background-color: inherit;
+    color: white;
+    border: none;
+    padding: 0px 10px;
+    border: 1px gray solid;
+}
+
+#login {
+    position: absolute;
+    float: left;
+}
+
+#cart {
+    position: absolute;
+    right: 0px;
+}
+
+div.nav {
+    height: 5px;
+    background-color: yellow;
+    
+}
