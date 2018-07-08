@@ -1,10 +1,8 @@
 * {
     margin: 0 auto;
-    padding: 0;
 }
-
-div.main {
-    background-color: gray;
+div.all {
+    background-color: lightgrey;
     min-height: 7200px;
     width: 100%;
     height: auto;
@@ -21,6 +19,7 @@ nav {
     height: 40px;
     background-color: black;
     width: 100%;
+    margin: 0 auto;
 }
 button{
     height: inherit;
@@ -87,13 +86,124 @@ header {
     height: 100px;
 }
 
-div.cont {
+div.header {
     width: 1000px;
     height: 100px;
-    background-color: aqua
 }
 
 header img {
-    height: 80px;
+    width: 230px;
     margin: 10px 0 0 10px;
+    float: left;
+}
+
+.header .navbar {
+    width: 760px;
+    float: left;
+    text-align: right;
+    line-height: 90px;
+}
+.navbar a {
+    padding: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: grey;
+}
+
+div.line {
+    height: 1px;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+main .welcome {
+    text-align: center;
+    top: 30px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.welcome span {
+    background-color: orange;
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main .products {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    min-height: 300px;
+}
+
+main .title {
+    position: relative;
+    padding-top: 15px;
+}
+
+.product {
+    width: 240px;
+    background-color: white;
+    border-radius: 7px;
+    height: auto;    
+    float: left;
+    margin: 0 5px;
+}
+
+.product_img {
+    width: 238px;
+    border: 1px black solid;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.product_img img {
+    width: 100%;
+    margin: 0;
+}
+
+.products h4 {
+    margin: 5px 0 10px 5px;
+}
+
+.products h4 i {
+    float: right;
+    font-weight: normal;
+    margin-right: 10px;
+}
+.products .description {
+    margin: 5px 0 5px 5px;
+}
+
+p {
+    margin: 0;
+}
+
+.cont {
+    margin-bottom: 10px;
+    height: auto;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px 0 5px 5px;
+    float: left;
+}
+
+.add_to_cart {
+    font-size: 12px;
+    padding: 6px;
+    margin: 5px;
+    float: right;
+    background-color: orange;
+    color: orangered;
+    border-radius: 5PX; 
 }
